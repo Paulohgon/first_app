@@ -1,6 +1,6 @@
-# flutter_application_1
+# Flutter app 1
 
-A new Flutter project.
+Meu primeiro app flutter a fim de aprender mais sobre essa tecnologia com auxilio dos cursos da alura
 
 ## Getting Started
 
