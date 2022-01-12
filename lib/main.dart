@@ -16,6 +16,10 @@ class myApp extends StatelessWidget {
 }
 
 class formulario_transferencia extends StatelessWidget {
+  final TextEditingController _controladorCampoNumConta =
+      TextEditingController();
+  final TextEditingController _controladorCampoValor = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -28,6 +32,7 @@ class formulario_transferencia extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(32.0),
             child: TextField(
+              controller: _controladorCampoNumConta,
               style: TextStyle(fontSize: 24.0),
               decoration: InputDecoration(
                 labelText: 'Numero da conta',
@@ -39,6 +44,7 @@ class formulario_transferencia extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(32.0),
             child: TextField(
+              controller: _controladorCampoValor,
               style: TextStyle(fontSize: 24.0),
               decoration: InputDecoration(
                 labelText: 'Valor',
